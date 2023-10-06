@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 body {
     background-color: #B7EBB8;
     background-repeat: no-repeat;
@@ -22,7 +26,8 @@ hr {
 
 div {
   text-align: center;
-}
+  animation: fadeIn 2s ease-in; 
+ }
 
 
 nav {
