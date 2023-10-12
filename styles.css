@@ -92,6 +92,7 @@ h2, hr {
 .img {
   width: 220%;
   height: 220%;
+  margin-left: -10cm;
 }
 
 .img2 {
@@ -102,8 +103,21 @@ h2, hr {
 .img3 {
   width: 220%;
   height: 220%;
+  margin-left: -5cm;
 }
 
 ul {
   list-style-position: inside;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  border: 2px solid;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
